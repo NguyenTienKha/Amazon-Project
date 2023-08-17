@@ -1,0 +1,23 @@
+.search-button {
+  background-color: #febd69;
+}
+.cart-number {
+  right: 30%;
+  top: -10%;
+}
+.add-button {
+  background-color: #f7ca00;
+}
+.quantity-product {
+  background-color: #f0f0f0;
+}
+.box__img-product {
+  height: 13em;
+}
+.name-product {
+  height: 3em;
+   display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; 
+  overflow: hidden;
+}
