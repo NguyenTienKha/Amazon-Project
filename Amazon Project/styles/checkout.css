@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  top: 0;
+  z-index: 1000;
+}
+
+main {
+  margin-top: 11em;
+}
+
+.cart-and-payment {
+  display: grid;
+  grid-template-columns:2fr 1fr ;
+  column-gap: 12px;
+  align-items: start;
+}
+.cart-details{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    column-gap: 25px;
+}
+
+.payment-button {
+  background-color: rgb(255, 216, 20);
+}

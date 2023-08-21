@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Check out</title>
+	<link rel="stylesheet" href="styles/checkout.css">
+	<link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+	<script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<header class="checkout-header d-flex justify-content-center position-fixed col-12 ps-4 pe-4 bg-white">
+		<div class="header-content d-flex justify-content-between align-items-center col-7 pt-3 pb-3">
+			<div class="left-section col-2">
+				<a href="">
+					<img src="images/amazon-logo.png" alt="" class="w-50">
+				</a>
+			</div>
+			<div class="middle-section fw-bold fs-4">
+				Checkout(
+				<a href="" class="text-decoration-none">0 Items</a>
+				)
+			</div>
+			<div class="right-section col-2 text-end">
+				<img src="images/icons/checkout-lock-icon.png" alt="">
+			</div>
+		</div>
+	</header>
+
+
+	<main class="col-12 ps-4 pe-4 d-flex justify-content-center">
+		<div class="content-main col-7 pt-3 pb-3">
+			<h5 class="page-title fw-bold mb-3">Review your order</h5>
+			<div class="cart-and-payment">
+
+				<div class="cart-summary  me-1">
+					<div class="cart-item border p-4 mb-3 rounded-2">
+						<div class="delivery-date mb-3 fw-bold text-success">Delivery date : <span
+								class="date">Wednesday, August 30</span>
+						</div>
+						<div class="cart-details">
+							<img src="images/products/athletic-cotton-socks-6-pairs.jpg" alt=""
+								class="product-image w-100">
+							<div class="cart-item-details ">
+								<div class="product-name fw-bold">Black and Gray Athletic Cotton Socks - 6 Pairs</div>
+								<div class="product-price fw-bold text-danger">$10.90</div>
+								<div class="product-quantity">
+									Quantity :
+									<span class="quantity-label">1</span>
+									<input type="number" class="new-quantity-input d-none">
+									<span class="update-quantity-link text-primary">Update</span>
+									<span class="save-quantity-link d-none text-primary">Save</span>
+									<span class="delete-quantity-link text-primary">Delete</span>
+								</div>
+							</div>
+							<div class="delivery-options">
+								<div class="delivery-options-title fw-bold">
+									Choose a delivery option:
+								</div>
+								<div class="delivery-option d-flex mb-1">
+									<input type="radio" class="delivery-option-input me-1">
+									<div>
+										<div class="delivery-option-date fw-bold text-success">
+											Wednesday, August 30
+										</div>
+										<div class="delivery-option-price">
+											FREE Shipping
+										</div>
+									</div>
+								</div>
+								<div class="delivery-option d-flex mb-1">
+									<input type="radio" class="delivery-option-input me-1">
+									<div>
+										<div class="delivery-option-date fw-bold text-success">
+											Thursday, August 24
+										</div>
+										<div class="delivery-option-price">
+											$4.99 - Shipping
+										</div>
+									</div>
+								</div>
+								<div class="delivery-option d-flex mb-1">
+									<input type="radio" class="delivery-option-input me-1">
+									<div>
+										<div class="delivery-option-date fw-bold text-success">
+											Tuesday, August 22
+										</div>
+										<div class="delivery-option-price">
+											$9.99 - Shipping
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cart-item border p-4 mb-3 rounded-2">
+						<div class="delivery-date mb-3 fw-bold text-success">Delivery date : <span
+								class="date">Wednesday, August 30</span>
+						</div>
+						<div class="cart-details">
+							<img src="images/products/intermediate-composite-basketball.jpg" alt=""
+								class="product-image w-100">
+							<div class="cart-item-details ">
+								<div class="product-name fw-bold">Intermediate Size Basketball
+									$20.95</div>
+								<div class="product-price fw-bold text-danger">$20.95</div>
+								<div class="product-quantity">
+									Quantity :
+									<span class="quantity-label">1</span>
+									<input type="number" class="new-quantity-input d-none">
+									<span class="update-quantity-link text-primary">Update</span>
+									<span class="save-quantity-link d-none text-primary">Save</span>
+									<span class="delete-quantity-link text-primary">Delete</span>
+								</div>
+							</div>
+							<div class="delivery-options">
+								<div class="delivery-options-title fw-bold">
+									Choose a delivery option:
+								</div>
+								<div class="delivery-option d-flex mb-1">
+									<input type="radio" class="delivery-option-input me-1">
+									<div>
+										<div class="delivery-option-date fw-bold text-success">
+											Wednesday, August 30
+										</div>
+										<div class="delivery-option-price">
+											FREE Shipping
+										</div>
+									</div>
+								</div>
+								<div class="delivery-option d-flex mb-1">
+									<input type="radio" class="delivery-option-input me-1">
+									<div>
+										<div class="delivery-option-date fw-bold text-success">
+											Thursday, August 24
+										</div>
+										<div class="delivery-option-price">
+											$4.99 - Shipping
+										</div>
+									</div>
+								</div>
+								<div class="delivery-option d-flex mb-1">
+									<input type="radio" class="delivery-option-input me-1">
+									<div>
+										<div class="delivery-option-date fw-bold text-success">
+											Tuesday, August 22
+										</div>
+										<div class="delivery-option-price">
+											$9.99 - Shipping
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="payment-summary  border p-4 rounded-2">
+					<div class="payment-summary-title fw-bold">Order Summary</div>
+					<div class="payment-summary-row d-flex mb-1">
+						<div class="col-10">Items(2) :</div>
+						<div class="payment-summary-money text-end col-2">$31.85</div>
+					</div>
+					<div class="payment-summary-row d-flex mb-1">
+						<div class="col-10">Shipping & handling :</div>
+						<div class="payment-summary-money text-end col-2">$0.00</div>
+					</div>
+					<div class="payment-summary-row d-flex mb-1">
+						<div class="col-10">Total before tax :</div>
+						<div class="payment-summary-money text-end col-2 border-top">$31.85</div>
+					</div>
+					<div class="payment-summary-row d-flex mb-1">
+						<div class="col-10">Estimated tax (10%) :</div>
+						<div class="payment-summary-money text-end col-2">
+							$3.19</div>
+					</div>
+					<div class="payment-summary-row d-flex border-top text-danger fw-bold pt-2 mb-2 ">
+						<div class="col-10">Order total:</div>
+						<div class="payment-summary-money text-end col-2">
+							$35.04</div>
+					</div>
+					<div class="paypal-toggle d-flex mb-2">
+						<div>Use PayPal</div>
+						<input type="checkbox" class="ms-2">
+					</div>
+					<button class="payment-button border-0 col-12 rounded-3 p-1 mt-3 pt-2 pb-2">Place your
+						order</button>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+
+</html>
